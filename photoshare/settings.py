@@ -28,7 +28,7 @@ SECRET_KEY = "django-insecure-k7w#=-%)5usygt2mu*2qgt^akq^9t0dv+)s-rpzyic#su9s_ne
 DEBUG = True
 
 ALLOWED_HOSTS = ['pfd-production.up.railway.app', 'https//pfd-production.up.railway.app']
-CSRF_TRUSTED_ORIGINS = ['pfd-production.up.railway.app', 'https//pfd-production.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https//pfd-production.up.railway.app']
 
 # Application definition
 
