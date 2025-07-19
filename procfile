@@ -1,0 +1,2 @@
+web: gunicorn photos.wsgi --log-file
+web: python manage.py migrate && gunicorn photos.wsg
