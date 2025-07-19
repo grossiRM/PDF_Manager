@@ -7,6 +7,6 @@ def index(request):
             file = request.FILES['img']
         )
         new_photo.save()
-        return render(request, 'index.html', {'new_url':str('localhost:8000'+new_photo.file.url)})
+        return render(request, 'index.html', {'new_url':str('https://pfd-production.up.railway.app'+new_photo.file.url)})
     else:
         return render(request, 'index.html')
